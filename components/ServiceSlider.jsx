@@ -13,31 +13,42 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-const serviceData = [
+export const serviceData = [
   {
-    Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Web Development",
+    description:
+      "Modern, fast, and scalable websites using React, Next.js, and modern technologies.",
+    icon: <FaCode />,
   },
   {
-    Icon: RxPencil2,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Mobile Application",
+    description:
+      "Cross-platform mobile apps for Android & iOS with smooth UI and high performance.",
+    icon: <FaMobileAlt />,
   },
   {
-    Icon: RxDesktop,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Backend & API Development",
+    description:
+      "Secure backend systems, REST APIs, authentication, and database management.",
+    icon: <FaServer />,
   },
   {
-    Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "E-commerce Solutions",
+    description:
+      "Complete online store setup with payment integration, admin panel, and dashboards.",
+    icon: <FaShoppingCart />,
   },
   {
-    Icon: RxRocket,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "SEO Optimization",
+    description:
+      "Improve your website ranking with technical SEO, speed optimization, and structure.",
+    icon: <FaSearch />,
+  },
+  {
+    title: "Digital Marketing",
+    description:
+      "Grow your business with targeted ads, content strategy, and conversion optimization.",
+    icon: <FaChartLine />,
   },
 ];
 
